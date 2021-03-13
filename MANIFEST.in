@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include masar_cable *.css
+recursive-include masar_cable *.csv
+recursive-include masar_cable *.html
+recursive-include masar_cable *.ico
+recursive-include masar_cable *.js
+recursive-include masar_cable *.json
+recursive-include masar_cable *.md
+recursive-include masar_cable *.png
+recursive-include masar_cable *.py
+recursive-include masar_cable *.svg
+recursive-include masar_cable *.txt
+recursive-exclude masar_cable *.pyc
