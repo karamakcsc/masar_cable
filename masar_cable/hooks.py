@@ -184,7 +184,8 @@ fixtures = [
 		"Item-specification_cables_and_wires",
 		"Item-bom",
 		"Item-conductor",
-		"Item-insulation"
+		"Item-insulation",
+		"Item-binding_tape"
             ]
         ]
     ]}
