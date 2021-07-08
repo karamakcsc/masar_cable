@@ -183,7 +183,8 @@ fixtures = [
 		"Item-column_break_65",
 		"Item-specification_cables_and_wires",
 		"Item-bom",
-		"Item-conductor"
+		"Item-conductor",
+		"Item-insulation"
             ]
         ]
     ]}
