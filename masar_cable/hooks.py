@@ -180,7 +180,9 @@ fixtures = [
 		"Item-cu",
 		"Item-column_break_73",
 		"Item-column_break_69",
-		"Item-column_break_65"
+		"Item-column_break_65",
+		"Item-specification_cables_and_wires",
+		"Item-bom"
             ]
         ]
     ]}
