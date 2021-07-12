@@ -87,6 +87,25 @@ app_license = "MIT"
 #	}
 # }
 
+
+
+#doc_events = {
+# 	"Work Order": {
+# 		"onload": "masar_cable.custom.work_order.work_order.execute_override"
+#		"before_insert": "masar_cable.custom.work_order.work_order.execute_override"
+#	}
+# }
+
+doctype_js = {
+    "BOM" : "custom/bom/bom.js",
+    "Work Order" : "custom/work_order/work_order.js"
+ }
+
+#override_doctype_class = {
+#	'Work Order': 'masar_cable.overrides.overrides.CustomWorkOrder'
+#}
+
+
 # Scheduled Tasks
 # ---------------
 
