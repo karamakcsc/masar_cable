@@ -98,7 +98,9 @@ app_license = "MIT"
 
 doctype_js = {
     "BOM" : "custom/bom/bom.js",
-    "Work Order" : "custom/work_order/work_order.js"
+    "Work Order" : "custom/work_order/work_order.js",
+    "Quotation" : "custom/quotation/quotation.js",
+    "Price List" : "custom/price_list/price_list.js"
  }
 
 #override_doctype_class = {
@@ -207,7 +209,23 @@ fixtures = [
 		"Item-binding_tape",
 		"Item-binding",
 		"Item-armour",
-		"Item-sheathing"
+		"Item-sheathing",
+		"Price List-lme2",
+		"Price List-lme1",
+		"Price List-column_break_12",
+		"Price List-apply_vfcu",
+		"Price List-current_lme",
+		"Price List-price_variation_management",
+		"Quotation-apply_vfcu",
+		"Quotation-column_break35",
+		"Quotation-lme2",
+		"Quotation-lme1",
+		"Quotation-current_lme",
+		"Quotation-price_variation_management",
+		"Item-vfcu",
+		"Work Order Operation-operation_rate",
+		"BOM Operation-operation_rate",
+		"Operation-operation_rate"
             ]
         ]
     ]}
