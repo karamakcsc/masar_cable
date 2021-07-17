@@ -15,3 +15,13 @@ frappe.ui.form.on("BOM Operation", "operation", function(frm, cdt, cdn) {
 		}
 	});
 });
+
+
+frappe.ui.form.on("BOM", "setup", function(frm) {
+        frappe.call({
+            method:"masar_cable.custom.bom.bom.execute_override",
+            callback: function(r){
+            }
+        })
+
+});

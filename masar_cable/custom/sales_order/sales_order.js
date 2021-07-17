@@ -1,4 +1,4 @@
-frappe.ui.form.on("Quotation", "apply_vfcu", function(frm) {
+frappe.ui.form.on("Sales Order", "apply_vfcu", function(frm) {
 if(!frm.doc.current_lme) return;
 
 frm.set_value("lme2",frm.doc.lme1);
