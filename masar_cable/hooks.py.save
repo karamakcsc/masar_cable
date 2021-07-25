@@ -87,27 +87,6 @@ app_license = "MIT"
 #	}
 # }
 
-
-
-#doc_events = {
-# 	"Work Order": {
-# 		"onload": "masar_cable.custom.work_order.work_order.execute_override"
-#		"before_insert": "masar_cable.custom.work_order.work_order.execute_override"
-#	}
-# }
-
-doctype_js = {
-    "BOM" : "custom/bom/bom.js",
-    "Work Order" : "custom/work_order/work_order.js",
-    "Quotation" : "custom/quotation/quotation.js",
-    "Price List" : "custom/price_list/price_list.js"
- }
-
-#override_doctype_class = {
-#	'Work Order': 'masar_cable.overrides.overrides.CustomWorkOrder'
-#}
-
-
 # Scheduled Tasks
 # ---------------
 
@@ -157,76 +136,50 @@ fixtures = [
 		"Item-standard",
 		"Workstation-machine_code",
 		"Operation-operation_code",
-                "Item-conductor_material",
-                "Item-conductor_shape",
-                "Item-conductor_no",
-                "Item-actual_cross_secarea_mm2",
-                "Item-conductor_dimension_height_mm_",
-		"Item-conductor_dimension_width_mm_",
-		"Item-insulation_material",
-		"Item-insulation_color",
-		"Item-insulation_core_sector_hight_mm",
-		"Item-insulation_core_sector_width_approx_mm",
-		"Item-cores_laidup_assem_dia",
-		"Item-insulation_thickness_mm",
-		"Item-binding_tape_material",
-		"Item-binding_dimension_height",
-		"Item-binding_dimension_width",
-		"Item-binding_tape_diameter",
-		"Item-binding_tape_total_cov",
-		"Item-binding_material",
-		"Item-binding_color",
-		"Item-binding_diameter",
-		"Item-binding_tolerance",
-		"Item-binding_thickness_mm",
-		"Item-armour_material",
-		"Item-armour_construction",
-		"Item-armour_wires_strips_no",
-		"Item-armour_diameter_mm",
-		"Item-armour_total_cov",
-		"Item-sheathing_material",
-		"Item-sheathing_color",
-		"Item-sheathing_over_all_diameter",
-		"Item-sheathing_thickness",
-		"Item-conductor_weight",
-		"Item-insulation_weight",
-		"Item-binding_tape_weight",
-		"Item-pol_tape_weight",
-		"Item-drain_wire_weight",
-		"Item-al_foil_weight",
-		"Item-bedding_weight",
-		"Item-armour_weight",
-		"Item-sheathing_weight",
-		"Item-cable_weight",
-		"Item-cu",
-		"Item-column_break_73",
-		"Item-column_break_69",
-		"Item-column_break_65",
-		"Item-specification_cables_and_wires",
-		"Item-bom",
-		"Item-conductor",
-		"Item-insulation",
-		"Item-binding_tape",
-		"Item-binding",
-		"Item-armour",
-		"Item-sheathing",
-		"Price List-lme2",
-		"Price List-lme1",
-		"Price List-column_break_12",
-		"Price List-apply_vfcu",
-		"Price List-current_lme",
-		"Price List-price_variation_management",
-		"Quotation-apply_vfcu",
-		"Quotation-column_break35",
-		"Quotation-lme2",
-		"Quotation-lme1",
-		"Quotation-current_lme",
-		"Quotation-price_variation_management",
-		"Item-vfcu",
-		"Work Order Operation-operation_rate",
-		"BOM Operation-operation_rate",
-		"Operation-operation_rate",
-		"Item-color"
+                "Item-column_break_73",
+"Item-conductor_material"
+"conductor_shape"
+"conductor_no"
+"actual_cross_secarea_mm2"
+"conductor_dimension_height_mm_"
+"conductor_dimension_width_mm_"
+"insulation_material"
+"insulation_color"
+"insulation_core_sector_hight_mm"
+"insulation_core_sector_width_approx_mm"
+"cores_laidup_assem_dia"
+"insulation_thickness_mm"
+"binding_tape_material"
+"binding_dimension_height"
+"binding_dimension_width"
+"binding_tape_diameter"
+"binding_tape_total_cov"
+"binding_material"
+"binding_color"
+"binding_diameter"
+"binding_tolerance"
+"binding_thickness_mm"
+"armour_material"
+"armour_construction"
+"armour_wires_strips_no"
+"armour_diameter_mm"
+"armour_total_cov"
+"sheathing_material"
+"sheathing_color"
+"sheathing_over_all_diameter"
+"sheathing_thickness"
+"conductor_weight"
+"insulation_weight"
+"binding_tape_weight"
+"pol_tape_weight"
+"drain_wire_weight"
+"al_foil_weight"
+"bedding_weight"
+"armour_weight"
+"sheathing_weight"
+"cable_weight"
+"cu"
+
             ]
         ]
     ]}
