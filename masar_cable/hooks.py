@@ -100,6 +100,7 @@ doctype_js = {
     "BOM" : "custom/bom/bom.js",
     "Work Order" : "custom/work_order/work_order.js",
     "Quotation" : "custom/quotation/quotation.js",
+    "Sales Order" : "custom/sales_order/sales_order.js",
     "Price List" : "custom/price_list/price_list.js"
  }
 

@@ -6,7 +6,7 @@ from frappe import throw, msgprint, _
 
 @frappe.whitelist()
 def apply_vfcu(doctype,name):
-	quotation_doc = frappe.get_doc(doctype, name)
-	for d in quotation_doc.get("items"):
+	so_doc = frappe.get_doc(doctype, name)
+	for d in so_doc.get("items"):
 		item_doc = frappe.get_doc("Item", d.item_code)
-		d.rate = d.rate+ item_doc.vfcu *(quotation_doc.lme1-quotation_doc.lme2);
+		d.rate = d.rate+ item_doc.vfcu *(so_doc.lme1-so_doc.lme2);
